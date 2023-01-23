@@ -22,9 +22,66 @@ import Model from './Examples/Model';
      return (   
         <div className="App">    
               <Employee EmpArr={arr}/> 
-<Model />
    </div>  
 
  );
 }
+
+//Modal 
+
+// function App() {
+//   const [modalShow, setModalShow] = useState(false);
+//   const [modalData, setModalData] = useState({});
+//   const details = [
+//     {
+//       name: "mac",
+//       fname: "mac beck",
+//       email: "123@gmail.com",
+//       phNo: 77362261617,
+//       img: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+//     },
+//     {
+//       name: "doe",
+//       fname: " Doe",
+//       email: "546@gmail.com",
+//       phNo: 234567788,
+//       img: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+//     },
+//     {
+//       name: "rathod",
+//       fname: "rai",
+//       email: "Ria@gmail.com",
+//       phNo: 234567889090,
+//       img: ""https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+//     }
+//   ];
+//   return (
+//     <Container>
+//       <AccordianEx details={details} />
+//       <div>
+//         {details.map((el) => (
+//           <>
+//             <Button
+//               variant="warning"
+//               onClick={() => {
+//                 setModalShow(true);
+//                 setModalData(el);
+//               }}
+//               className="modal-btn"
+//             >
+//               {el.name}
+//             </Button>
+//           </>
+//         ))}
+//         <ModalEx
+//           show={modalShow}
+//           onHide={() => setModalShow(false)}
+//           detail={modalData}
+//         />
+//       </div>
+//     </Container>
+//   );
+// }
+
+// export default App;
  export default App;
